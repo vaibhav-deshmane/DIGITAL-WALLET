@@ -1,0 +1,49 @@
+
+.btn {
+
+
+
+
+
+    display: inline-block;
+    padding: 8px 16px;
+    background-color: #3f86d2;
+    color: rgb(71, 130, 239);
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .btn:hover {
+    background-color: #fce148;
+  }
+  #forgotpass:hover{
+    background-color: #fce148;
+  }
+  #signup:hover{
+    background-color: #fce148;
+
+  }
+  
+  .disabled {
+    cursor: not-allowed;
+    opacity: 0.6;
+  }
+  
+  .background-container {
+    text-align: center;
+    padding: 20px;
+    background-image: url('/public/img/bank.png');
+    background-size: cover;
+    background-repeat: no-repeat;
+    /* background-position: center center; */
+    position: fixed;
+    top: 8%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+
+  
